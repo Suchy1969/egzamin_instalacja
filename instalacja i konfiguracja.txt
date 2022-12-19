@@ -1,0 +1,53 @@
+-----------------------------------------------------------
+Zainstalować Visual Studio Code.
+Zainstalować rozszerzenia w Visual Studio Code:
+Visual Studio Code ->Polish Language Pack
+Visual Studio Code ->Angular Language Service
+Visual Studio Code ->Prettier
+Visual Studio Code ->React Native Tools
+Visual Studio Code ->Simple React Snippets
+-----------------------------------------------------------
+Zainstalować Node.js https://nodejs.org/dist/v18.12.1/node-v18.12.1-x64.msi
+Sprawdzenie wersji w CMD: 
+node -v
+npm -v
+-----------------------------------------------------------
+ANGULAR-CLI
+----------------------
+instalacja angular-cli
+
+npm install -g @angular/cli
+npm install -g typescript
+
+sprawdzenie: 
+tsc -v
+ng v
+
+-----------------------
+npm install mysql bootstrap underscore
+npm install -g jshint
+--------------------------
+Utworzenie projektu we frameworku Angular
+https://angular.io/quick-start
+npm init @angular egzamin_a
+---------------------------
+cd egzamin_a
+npm install express --save body-parser --save cookie-parser --save multer --save bootstrap --save jquery --save mysql --save
+npm audit fix --force
+code .
+-----------------------------------------------------------
+REACT.JS
+----------------------
+npm install react
+npx create-react-app egzamin_r
+cd egzamin_r
+npm install express --save body-parser --save cookie-parser --save multer --save bootstrap --save jquery --save mysql --save
+npm audit fix --force
+
+code .
+Wybrać Node.js
+uruchom skrypt: start
+-----------------------------------------------------------
+Sprawdzić w Visual Studio Community:
+Aplikacje dekstopowe:
+Projekt->C++->Kreator aplikacji klasycznej systemu Windows->Aplikacja klasyczna(exe)
